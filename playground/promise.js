@@ -1,4 +1,4 @@
-function getData(){
+function getData() {
     return new Promise((resolve, reject) => {
         setTimeout(() => {
             resolve("Data berhasil diambil");
@@ -7,6 +7,10 @@ function getData(){
 }
 
 console.log("Ambil data...");
-getData().then((data) => {
-    console.log(data);
-});
+getData()
+    .then((data) => {
+        console.log(data);
+    })
+    .catch((error) => {
+        console.error("Error: ", error);
+    });

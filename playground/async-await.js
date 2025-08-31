@@ -7,9 +7,13 @@ function fethData() {
 }
 
 async function main() {
-    console.log("Ambil data...");
-    const data = await fethData();
-    console.log("Hasil : ",data);
+    try {
+        console.log("Ambil data...");
+        const data = await fethData();
+        console.log("Hasil : ",data);
+    } catch (error) {
+        console.error("Error: ", error);
+    }
 }
 
 main();
