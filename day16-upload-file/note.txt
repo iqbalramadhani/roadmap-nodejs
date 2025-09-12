@@ -1,0 +1,5 @@
+Pakai library multer untuk handle upload file.
+
+Simpan file di folder uploads/.
+
+Simpan nama file di MongoDB (bukan binary).
