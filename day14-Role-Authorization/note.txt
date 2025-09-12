@@ -1,0 +1,6 @@
+
+Menyimpan role di user model (default: "user", bisa "admin").
+
+Saat login, role ikut dimasukkan di token.
+
+Middleware baru: hanya admin yang boleh akses route tertentu.
