@@ -1,0 +1,11 @@
+Tambah field likes di artikel.
+
+Tambah schema untuk Comment.
+
+Bikin route:
+
+POST /articles/:id/like → toggle like/unlike.
+
+POST /articles/:id/comments → tambah komentar.
+
+GET /articles/:id/comments → ambil komentar.
