@@ -1,0 +1,5 @@
+Implementasi pagination (page, limit) di endpoint /articles.
+
+Tambahin search by title (pakai query param search).
+
+Gabungin keduanya
