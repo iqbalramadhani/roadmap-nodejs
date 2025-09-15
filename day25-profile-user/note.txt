@@ -1,0 +1,9 @@
+Membuat endpoint untuk profile user.
+
+Menampilkan:
+
+Data user (nama, email, role).
+
+Artikel yang dibuat user tersebut.
+
+Jumlah artikel, jumlah like, dsb (opsional).
